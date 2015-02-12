@@ -26,7 +26,7 @@ public final class SyncTime {
      * @return The GregorianCalendar object containing the current time and date
      * @throws java.io.IOException Error when we cannot read properly parse data
      */
-    public final GregorianCalendar getAtomicTime() throws IOException {
+    public static final GregorianCalendar getAtomicTime() throws IOException {
         BufferedReader in = null;
 
         try {
